@@ -1,12 +1,13 @@
 import './App.css';
-import { FaBeer } from 'react-icons/fa';
+
 import Answer from './components/Answer';
+import Question from './components/Question';
 
 function App() {
   return (
     <div className='App'>
-      <div className='column'>
-        <h1> Lets go for a <FaBeer />? </h1>
+      <div >
+        <Question />
         <Answer />
       </div>
     </div>

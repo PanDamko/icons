@@ -1,0 +1,12 @@
+.first{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.second{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
